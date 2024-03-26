@@ -1,4 +1,3 @@
-```
 # Chess.com Rating Display for Divoom Pixoo
 
 ## About The Project
@@ -49,4 +48,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 Project Link: [https://github.com/avollrath/chess-rating](https://github.com/avollrath/chess-rating)
-```
