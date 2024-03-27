@@ -27,7 +27,7 @@ def create_text_image(text, font_size, text_color, image_size):
     text_width, text_height = draw.textsize(text, font=font)
 
     # Adjust these values as needed for positioning
-    x = 30
+    x = 27
     y = 40
 
     draw.text((x, y), text, fill=text_color, font=font)
@@ -56,7 +56,7 @@ def main():
         background_image = Image.open(background_image_path)
 
         text_color = (255, 255, 255, 255)  # White color
-        font_size = 16  # Adjust font size as needed
+        font_size = 15  # Adjust font size as needed
         text_image = create_text_image(text, font_size, text_color, background_image.size)
 
         combined_image = combine_images(background_image, text_image, (0, 0))
